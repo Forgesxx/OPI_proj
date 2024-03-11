@@ -12,8 +12,8 @@ const App = () => {
         <div className="App">
           <Header />
           <Routes>
-            <Route path="/mainScreenMovies" element={<AllMovies/>} />
-            <Route path="/" element={<AuthComponent />} />
+            <Route path="/OPI_proj/mainScreenMovies" element={<AllMovies/>} />
+            <Route path="/OPI_proj/" element={<AuthComponent />} />
           </Routes>
         </div>
       </Router>

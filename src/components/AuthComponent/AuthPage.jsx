@@ -16,7 +16,7 @@ const AuthComponent = () => {
       setEmail('');
       setPassword('');
       console.log('Navigating to /');
-      navigate('/mainScreenMovies');
+      navigate('/OPI_proj/mainScreenMovies');
     };
   
     return (
