@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/OPI_proj/static/css/main.d893da16.css",
+    "main.js": "/OPI_proj/static/js/main.6a02fd16.js",
+    "static/js/453.2c591384.chunk.js": "/OPI_proj/static/js/453.2c591384.chunk.js",
+    "static/media/logo.png": "/OPI_proj/static/media/logo.8390921fcacbc2fc08fa.png",
+    "static/media/123.png": "/OPI_proj/static/media/123.880fd6dd8b778eee0649.png",
+    "static/media/cart.png": "/OPI_proj/static/media/cart.96c73cb49987ccdf1154.png",
+    "index.html": "/OPI_proj/index.html",
+    "main.d893da16.css.map": "/OPI_proj/static/css/main.d893da16.css.map",
+    "main.6a02fd16.js.map": "/OPI_proj/static/js/main.6a02fd16.js.map",
+    "453.2c591384.chunk.js.map": "/OPI_proj/static/js/453.2c591384.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d893da16.css",
+    "static/js/main.6a02fd16.js"
+  ]
+}
