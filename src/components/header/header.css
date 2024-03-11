@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #e94a4a;
+    color: #fff;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+
+  
+  .options ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .options li {
+    margin-right: 75px;
+    cursor: pointer;
+  }
+  
+  .cart {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,35 @@
+.movie-carousel-container {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.movie-carousel {
+  display: flex;
+  gap: 15px;
+  scroll-behavior: smooth;
+  transition: transform 0.3s ease;
+}
+
+.movie-card {
+  margin-top: 10px;
+  text-align: center;
+  user-select: none;
+}
+
+.movie-poster {
+  max-width: 200px;
+  max-height: 300px;
+  object-fit: cover;
+  user-select: none;
+}
+
+
+.left {
+  left: 5px;
+}
+
+.right {
+  right: 5px;
+}
