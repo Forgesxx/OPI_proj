@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/OPI_proj/static/css/main.d893da16.css",
-    "main.js": "/OPI_proj/static/js/main.a8d7d77f.js",
+    "main.css": "/OPI_proj/static/css/main.a2f550e6.css",
+    "main.js": "/OPI_proj/static/js/main.dafcc016.js",
     "static/js/453.2c591384.chunk.js": "/OPI_proj/static/js/453.2c591384.chunk.js",
     "static/media/logo.png": "/OPI_proj/static/media/logo.8390921fcacbc2fc08fa.png",
     "static/media/123.png": "/OPI_proj/static/media/123.880fd6dd8b778eee0649.png",
     "static/media/cart.png": "/OPI_proj/static/media/cart.96c73cb49987ccdf1154.png",
+    "static/media/account.png": "/OPI_proj/static/media/account.8cfc8dbcf6d56a167888.png",
     "index.html": "/OPI_proj/index.html",
-    "main.d893da16.css.map": "/OPI_proj/static/css/main.d893da16.css.map",
-    "main.a8d7d77f.js.map": "/OPI_proj/static/js/main.a8d7d77f.js.map",
+    "main.a2f550e6.css.map": "/OPI_proj/static/css/main.a2f550e6.css.map",
+    "main.dafcc016.js.map": "/OPI_proj/static/js/main.dafcc016.js.map",
     "453.2c591384.chunk.js.map": "/OPI_proj/static/js/453.2c591384.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d893da16.css",
-    "static/js/main.a8d7d77f.js"
+    "static/css/main.a2f550e6.css",
+    "static/js/main.dafcc016.js"
   ]
 }
