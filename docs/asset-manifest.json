@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/OPI_proj/static/css/main.7a67b12c.css",
+    "main.js": "/OPI_proj/static/js/main.03ecddeb.js",
+    "static/media/sign-up-bg.jpg": "/OPI_proj/static/media/sign-up-bg.1d7d7fc0dc3e51acbd7b.jpg",
+    "static/media/sign-in-bg.jpg": "/OPI_proj/static/media/sign-in-bg.287ea0a6b2124c669cd8.jpg",
+    "static/media/logo-white.png": "/OPI_proj/static/media/logo-white.8390921fcacbc2fc08fa.png",
+    "static/media/user-not-downloaded-color.png": "/OPI_proj/static/media/user-not-downloaded-color.f7b83fb1736d3a75048d.png",
+    "static/media/actor-photo-not-downloaded.jpg": "/OPI_proj/static/media/actor-photo-not-downloaded.6ed8c1e807e5f426eb94.jpg",
+    "static/media/movie-photo-not-downloaded.jpg": "/OPI_proj/static/media/movie-photo-not-downloaded.43b9dde91bed4bbf4274.jpg",
+    "index.html": "/OPI_proj/index.html",
+    "main.7a67b12c.css.map": "/OPI_proj/static/css/main.7a67b12c.css.map",
+    "main.03ecddeb.js.map": "/OPI_proj/static/js/main.03ecddeb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a67b12c.css",
+    "static/js/main.03ecddeb.js"
+  ]
+}
