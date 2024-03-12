@@ -111,7 +111,7 @@ function Actors({ moviesId, type }) {
                                     {filterActors?.map((data) => {
                                         return (
                                             <Link
-                                                to={`/actor/${data.id}`}
+                                                to={`/OPI_proj/actor/${data.id}`}
                                                 key={data.id}
                                                 className="actorLink"
                                             >

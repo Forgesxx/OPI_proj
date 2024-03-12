@@ -25,8 +25,6 @@ function Footer() {
                             <p className='title'><span>Help</span></p>
                         </li>
                         <li><a href="#" target="_blank">Terms Of Use</a></li>
-                        <li><a href="https://t.me/usmonov_ku" target="_blank">Help Center</a></li>
-                        <li><a href="https://t.me/usmonov_ku" target="_blank">FAQ</a></li>
                     </ul>
                     <ul>
                         <li>
