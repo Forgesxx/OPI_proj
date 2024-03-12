@@ -74,7 +74,7 @@ function Liked() {
                                                     <div className='icon' onClick={() => deleteLike(c_name)}>
                                                         <MdDeleteOutline />
                                                     </div>
-                                                    <Link to={`/show/${c_id}`}>
+                                                    <Link to={`/OPI_proj/show/${c_id}`}>
                                                         <div className='play'>
                                                             <p>Play</p>
                                                         </div>

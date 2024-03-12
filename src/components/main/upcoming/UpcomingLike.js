@@ -81,7 +81,7 @@ function UpcomingLike({ data }) {
                             <AiOutlineHeart />
                         </div>
                     }
-                    <Link to={`/OPI_proj/settings/movie/${id}`}>
+                    <Link to={`/OPI_proj/movie/${id}`}>
                         <div className='play'>
                             <p>Play</p>
                         </div>

@@ -81,7 +81,7 @@ function TopRatedLike({ data }) {
                             <AiOutlineHeart />
                         </div>
                     }
-                    <Link to={`/movie/${id}`}>
+                    <Link to={`/OPI_proj/movie/${id}`}>
                         <div className='play'>
                             <p>Play</p>
                         </div>

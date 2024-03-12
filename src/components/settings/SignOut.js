@@ -11,7 +11,7 @@ function SignOut() {
     const handleSignOut = () => {
         setTimeout(() => {
             signOut(auth).then(() => {
-                navigate("/")
+                navigate("/OPI_proj")
             }).catch(() => {
                 messageApi.open({
                     type: 'error',

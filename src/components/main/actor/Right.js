@@ -42,7 +42,7 @@ function Right({ actor }) {
     return (
         <div className="right">
             <h1>{name}</h1>
-            {birthday ? <p className='birthday'>Birthday: {birthday?.replaceAll("-", "/OPI_proj")}</p> : ""}
+            {birthday ? <p className='birthday'>Birthday: {birthday?.replaceAll("-", "/")}</p> : ""}
             {place_of_birth ? <p className='birthday'>{place_of_birth}</p> : ""}
             {biography ? <p>{biography?.slice(0, 500)}</p> : ""}
             {state.info ? <ConfigProvider

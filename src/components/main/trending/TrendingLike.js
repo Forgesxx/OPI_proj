@@ -83,7 +83,7 @@ function TrendingLike({ data }) {
                                 <AiOutlineHeart />
                             </div>
                         }
-                        <Link to={`/${media_type == "movie" ? "movie" : "show"}/${id}`}>
+                        <Link to={`/OPI_proj/${media_type == "movie" ? "movie" : "show"}/${id}`}>
                             <div className='play'>
                                 <p>Play</p>
                             </div>

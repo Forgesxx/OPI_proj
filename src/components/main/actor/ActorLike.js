@@ -76,7 +76,7 @@ function ActorLike({ data }) {
                             <AiOutlineHeart />
                         </div>
                     }
-                    <Link to={`/actor/${id}`}>
+                    <Link to={`/OPI_proj/actor/${id}`}>
                         <div className='play'>
                             <p>Play</p>
                         </div>
