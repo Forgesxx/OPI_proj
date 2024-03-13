@@ -1,0 +1,34 @@
+.cinema-grid {
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 150px;
+  }
+  
+  .seats {
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    gap: 10px;
+  }
+  
+  .seat {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .seat.selected {
+    background-color: #ffc107; 
+  }
+
+  .buy-btn {
+    background-color: #ccc;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .buy-btn.active {
+    background-color: #ffc107; 
+  }

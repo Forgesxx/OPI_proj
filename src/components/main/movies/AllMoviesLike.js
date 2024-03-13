@@ -1,5 +1,5 @@
 import React, { useState, useContext, useEffect } from 'react'
-import { Image, message } from 'antd'
+import { Image, message, Space, } from 'antd'
 import { AiFillHeart, AiOutlineHeart } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 import { useMovieContext } from '../../../context/MovieContex/MovieContex'
@@ -79,11 +79,20 @@ function AllMoviesLike({ data }) {
                             <AiOutlineHeart />
                         </div>
                     }
+                    <div className='play-container'>
+                        <Space>
                     <Link to={`/OPI_proj/movie/${id}`}>
                         <div className='play'>
-                            <p>Play</p>
+                            <p>About</p>
                         </div>
                     </Link>
+                    <Link to={`/OPI_proj/movie/${id}`}>
+                        <div className='play'>
+                            <p>Tickets</p>
+                        </div>
+                    </Link>
+                    </Space>
+                    </div>
                 </div>
             </div>
         </div>

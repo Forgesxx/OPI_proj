@@ -78,7 +78,7 @@ function ActorLike({ data }) {
                     }
                     <Link to={`/OPI_proj/actor/${id}`}>
                         <div className='play'>
-                            <p>Play</p>
+                            <p>About</p>
                         </div>
                     </Link>
                 </div>

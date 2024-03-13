@@ -76,7 +76,7 @@ function Liked() {
                                                     </div>
                                                     <Link to={`/OPI_proj/actor/${c_id}`}>
                                                         <div className='play'>
-                                                            <p>Play</p>
+                                                            <p>About actor</p>
                                                         </div>
                                                     </Link>
                                                 </div>

@@ -37,6 +37,7 @@ function App() {
                     <Route path="/OPI_proj/actor" element={<Actor />} />
                     <Route path="/OPI_proj/actor/:actorId" element={<ActorOpen />} />
                     <Route path="/OPI_proj/settings" element={<Settings />} />
+                    {/* <Route path="/OPI_proj/tickets" element={<Tickets />} /> */}
                     <Route path="*" element={<PageNotFound />} />
                 </Routes>
             </MovieContextProvider>

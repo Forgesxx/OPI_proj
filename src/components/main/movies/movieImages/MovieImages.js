@@ -79,6 +79,7 @@ function MovieImages({ moviesId, type }) {
         <>
             {photos.length > 4 ?
                 <div className='container'>
+                    <div>asasassa</div>
                     <div className="actors-box">
                         <div className="actors-title">
                             <div className="title-info">

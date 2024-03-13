@@ -71,6 +71,7 @@ function Navbar() {
                     <div className={`links-box ${classAdd ? "" : "active"}`}>
                         <ul className='links'>
                             <li><Link to="/OPI_proj"><RiHome2Line className='link-icon' />Home</Link></li>
+                            <li><Link to="/OPI_proj/tickets"><RiHome2Line className='link-icon' />Tickets</Link></li>
                             <li><Link to="/OPI_proj/movie"><RiMovie2Line className='link-icon' />Movies</Link></li>
                             <li><Link to="/OPI_proj/show"><MdSlideshow className='link-icon' />TV Shows</Link></li>
                             <li><Link to="/OPI_proj/actor"><RiBearSmileLine className='link-icon' />Actors</Link></li>
