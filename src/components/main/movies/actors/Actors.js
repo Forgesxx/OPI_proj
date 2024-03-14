@@ -12,6 +12,7 @@ import "../../../navbar/navbar.scss"
 import "../../../../assets/slick.css"
 import "../liked.scss"
 import Photo from '../../../loading/photo/Photo'
+import CinemaGrid from '../../cinemaGrid/cinemaGrid'
 const API_KEY = "917c387c9e20da3ba121bafdd8e7df79"
 
 function Actors({ moviesId, type }) {
@@ -90,6 +91,7 @@ function Actors({ moviesId, type }) {
         <>
             {!loading ?
                 <>
+                <CinemaGrid></CinemaGrid>
                     {actors.length > 4 ?
                         <div className='container'>
                             <div className="actors-box">

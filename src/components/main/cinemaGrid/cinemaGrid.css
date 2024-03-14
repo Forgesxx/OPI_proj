@@ -1,34 +1,51 @@
 .cinema-grid {
-    text-align: center;
-    margin-top: 20px;
-    margin-right: 150px;
-  }
-  
-  .seats {
-    display: grid;
-    grid-template-columns: repeat(10, 30px);
-    gap: 10px;
-  }
-  
-  .seat {
-    width: 35px;
-    height: 35px;
-    border: 1px solid #ccc;
-    cursor: pointer;
-  }
-  
-  .seat.selected {
-    background-color: #ffc107; 
-  }
+  width: 70%; 
+  margin: 1 auto; 
+  padding: 0px;
+  margin-left: 15%;
+  margin-top: 15px;
+  text-align: center;
+}
 
-  .buy-btn {
-    background-color: #ccc;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
+.seats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.seat {
+  flex-basis: calc(8.33% - 10px); 
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #ffcc00;
+}
+
+.buy-btn {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.buy-btn.active {
+  background-color: #28a745;
+}
+
+@media (max-width: 768px) {
+  .seat {
+    flex-basis: calc(16.66% - 10px);
   }
-  
-  .buy-btn.active {
-    background-color: #ffc107; 
-  }
+}

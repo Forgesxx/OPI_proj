@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 import './cinemaGrid.css';
 
 const CinemaGrid = () => {
@@ -16,6 +17,7 @@ const CinemaGrid = () => {
   const handleBuyTickets = () => {
     alert(`You bought the tickets : ${selectedSeats.join(', ')}`);
   };
+
 
   const renderSeats = () => {
     const seats = [];
@@ -44,7 +46,6 @@ const CinemaGrid = () => {
       <div className="seats">
         {renderSeats()}
       </div>
-      <br></br>
       <button className={selectedSeats.length > 0 ? 'buy-btn active' : 'buy-btn'} onClick={handleBuyTickets}>Buy</button>
     </div>
   );
