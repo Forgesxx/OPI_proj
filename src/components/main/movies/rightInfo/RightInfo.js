@@ -7,7 +7,6 @@ import { useMovieContext } from '../../../../context/MovieContex/MovieContex';
 import Info from '../Info';
 import MoviesLike from '../MoviesLike';
 import "./rightInfo.scss"
-import CinemaGrid from '../../cinemaGrid/cinemaGrid';
 
 function RightInfo({ movie }) {
     const { colorState, likeMovie } = useMovieContext()
@@ -95,7 +94,6 @@ function RightInfo({ movie }) {
                     <RxShare1 className='events' onClick={share} />
                 </div>
             </div>
-            <CinemaGrid/>
         </>
     )
 }
