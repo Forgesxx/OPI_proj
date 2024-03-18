@@ -1,9 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useContext, useEffect } from 'react'
+import { db } from '../../../context/AuthContext/Firebase'
+import { collection, addDoc } from "firebase/firestore";
+
+import { AuthContext } from '../../../context/AuthContext/AuthContext'
+import { Image, message, Space, } from 'antd'
+
 
 import './cinemaGrid.css';
 
 const CinemaGrid = () => {
   const [selectedSeats, setSelectedSeats] = useState([]);
+  const { currentUser } = useContext(AuthContext)
+  const [messageApi, contextHolder] = message.useMessage()
 
   const handleSeatClick = (seatNumber) => {
     const isSeatSelected = selectedSeats.includes(seatNumber);
@@ -14,9 +22,41 @@ const CinemaGrid = () => {
     }
   };
 
-  const handleBuyTickets = () => {
-    alert(`You bought the tickets : ${selectedSeats.join(', ')}`);
-  };
+    const handleBuyTickets = 
+        async () => 
+        {
+            if (currentUser !== null) 
+            {
+// TODO: use message API
+                // messageApi.open(
+                // {
+                //     type: "info",
+                //     content: `You bought the tickets : ${selectedSeats.join(', ')}`,
+                //     duration: 4
+                // });
+                alert(`You bought the tickets : ${selectedSeats.join(', ')}`);
+                await addDoc(collection(db, "mail"), 
+                {
+                    to: currentUser.email,
+                    message: 
+                    {
+                        subject: 'Hello from Firebase!',
+                        html: `You bought the tickets : ${selectedSeats.join(', ')}`,
+                    },
+                });
+            } 
+            else 
+            {
+              alert("To buy tickets, you should be logged in!");
+// TODO: use message API
+              // messageApi.open(
+              //   {
+              //       type: "error",
+              //       content: "To buy tickets, you should be logged in!",
+              //       duration: 4
+              //   })
+            }
+        };
 
 
   const renderSeats = () => {

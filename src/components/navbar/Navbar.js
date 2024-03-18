@@ -5,7 +5,7 @@ import { RiMovie2Line, RiBearSmileLine, RiHome2Line, RiSettingsLine } from "reac
 import { MdSlideshow } from "react-icons/md"
 import { motion } from "framer-motion"
 import { useMovieContext } from '../../context/MovieContex/MovieContex'
-import { Drawer, Image } from 'antd'
+import { Drawer, Image, Space } from 'antd'
 import { reducer } from '../../assets/reducer'
 import { AuthContext } from '../../context/AuthContext/AuthContext'
 import Hamburger from 'hamburger-react'
@@ -71,12 +71,11 @@ function Navbar() {
                     <div className={`links-box ${classAdd ? "" : "active"}`}>
                         <ul className='links'>
                             <li><Link to="/OPI_proj"><RiHome2Line className='link-icon' />Home</Link></li>
-                            <li><Link to="/OPI_proj/tickets"><RiHome2Line className='link-icon' />Tickets</Link></li>
                             <li><Link to="/OPI_proj/movie"><RiMovie2Line className='link-icon' />Movies</Link></li>
                             <li><Link to="/OPI_proj/show"><MdSlideshow className='link-icon' />TV Shows</Link></li>
-                            <li><Link to="/OPI_proj/actor"><RiBearSmileLine className='link-icon' />Actors</Link></li>
                             <li><Link to="/OPI_proj/settings"><RiSettingsLine className='link-icon' />Settings</Link></li>
                             <li><Link onClick={showDrawer}><BiSearch className='link-icon' />Search</Link></li>
+
                         </ul>
                         <ul className='user'>
                             {currentUser?.uid == null ?
