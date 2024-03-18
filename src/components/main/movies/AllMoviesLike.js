@@ -70,22 +70,8 @@ function AllMoviesLike({ data }) {
             />
             <div className="trending-movie-info">
                 <div className="like-and-open">
-                    {removeLike ?
-                        <div className='icon' onClick={() => deleteLike(data)}>
-                            <AiFillHeart />
-                        </div>
-                        :
-                        <div className='icon' onClick={() => like(data)}>
-                            <AiOutlineHeart />
-                        </div>
-                    }
                     <div className='play-container'>
                         <Space>
-                    <Link to={`/OPI_proj/movie/${id}`}>
-                        <div className='play'>
-                            <p>About</p>
-                        </div>
-                    </Link>
                     <Link to={`/OPI_proj/movie/${id}`}>
                         <div className='play'>
                             <p>Tickets</p>

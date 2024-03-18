@@ -49,3 +49,9 @@
     flex-basis: calc(16.66% - 10px);
   }
 }
+
+.date-time-picker {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}

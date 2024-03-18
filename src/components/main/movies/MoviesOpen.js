@@ -62,7 +62,7 @@ function Movies() {
                                 </div>
                             </div>
                         </div>
-                        <MovieActors moviesId={moviesId} type="movie" />
+                        <MovieActors moviesId={moviesId} type="movie"  movieTitle={title} />
                         <MovieImages moviesId={moviesId} type="movie" />
                         <MovieReview moviesId={moviesId} type="movie" />
                         <MovieSimilar moviesId={moviesId} type="movie" />

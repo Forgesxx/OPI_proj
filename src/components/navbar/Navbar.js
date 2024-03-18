@@ -72,7 +72,6 @@ function Navbar() {
                         <ul className='links'>
                             <li><Link to="/OPI_proj"><RiHome2Line className='link-icon' />Home</Link></li>
                             <li><Link to="/OPI_proj/movie"><RiMovie2Line className='link-icon' />Movies</Link></li>
-                            <li><Link to="/OPI_proj/show"><MdSlideshow className='link-icon' />TV Shows</Link></li>
                             <li><Link to="/OPI_proj/settings"><RiSettingsLine className='link-icon' />Settings</Link></li>
                             <li><Link onClick={showDrawer}><BiSearch className='link-icon' />Search</Link></li>
 
